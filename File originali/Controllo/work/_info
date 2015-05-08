@@ -1,0 +1,347 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Buso\Desktop
+Ccfg_fsm_r
+aFSM_R2
+eFSM_RX2
+DAx4 work 7 fsm_rx2 6 fsm_r2 22 :]Zc9KNYbJX?e:iXbTkJk2
+Z0 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z1 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z2 DEx4 work 7 fsm_rx2 0 22 2^5P@L`b1>HPBCFj[BcIM0
+Z3 w1375393874
+Z4 dC:\Users\Buso\Desktop\progetto\Controllo
+Z5 8C:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd
+Z6 FC:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd
+l0
+L135
+Vie7QMTbdcl=QWn65=3PQd3
+Z7 OV;C;10.1b;51
+32
+Z8 !s108 1375444626.530000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd|
+Z10 !s107 C:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 c[ZDffH<<=n<a:noX@L9e1
+!i10b 0
+Eff
+Z13 w1373812754
+Z14 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+R1
+R4
+Z15 8C:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd
+Z16 FC:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd
+l0
+L26
+Vgc9ZbEHJeTDOPXRMd4hZI3
+R7
+32
+Z17 !s108 1375444627.247000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd|
+Z19 !s107 C:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd|
+R11
+R12
+!s100 Z<]eXKYJL^iz>X1b5QD2O0
+!i10b 1
+Abehavior
+R14
+R1
+DEx4 work 2 ff 0 22 gc9ZbEHJeTDOPXRMd4hZI3
+l31
+L30
+VS[6;Ob`I25Q22F_I@YfLN1
+R7
+32
+R17
+R18
+R19
+R11
+R12
+!s100 7LPAU;_9BmKDnj4b_?_hK1
+!i10b 1
+Eff_generic
+Z20 w1375024870
+R14
+R1
+R4
+Z21 8C:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd
+Z22 FC:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd
+l0
+L4
+V_bKjSVzjS1[V:eNl=n;eE0
+R7
+32
+Z23 !s108 1375444625.849000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd|
+Z25 !s107 C:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd|
+R11
+R12
+!s100 =fk@kAPU?bV7R1?R]LIDJ0
+!i10b 1
+Abehavior
+R14
+R1
+DEx4 work 10 ff_generic 0 22 _bKjSVzjS1[V:eNl=n;eE0
+l11
+L10
+VgC01Y5zEb9`MZhN5F_UVY1
+R7
+32
+R23
+R24
+R25
+R11
+R12
+!s100 YCmKLMH_zRINDbFdXgmBV3
+!i10b 1
+Efifo
+Z26 w1375294070
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z28 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R14
+R1
+R4
+Z29 8C:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd
+Z30 FC:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd
+l0
+L6
+VE4^EH?emQ<^EcR0[?1[722
+R7
+32
+Z31 !s108 1375444625.961000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd|
+Z33 !s107 C:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd|
+R11
+R12
+!s100 b2h5AhjNUG3n@bIMZQYVX1
+!i10b 1
+Abehavioral
+R27
+R28
+R14
+R1
+DEx4 work 4 fifo 0 22 E4^EH?emQ<^EcR0[?1[722
+l23
+L19
+VP4g<AAnH<zhWCSPo<XZ_00
+R7
+32
+R31
+R32
+R33
+R11
+R12
+!s100 z5Pd5XJJkGSR^?cN9B0i?1
+!i10b 1
+Efsm_rx2
+R3
+R14
+R1
+R4
+R5
+R6
+l0
+L5
+V2^5P@L`b1>HPBCFj[BcIM0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 cfFBdH[]EWRh4HRG]UHoZ3
+!i10b 1
+Afsm_r2
+R14
+R1
+R2
+l28
+L19
+V:]Zc9KNYbJX?e:iXbTkJk2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 kFU:fN4QUT<z=iXY]m[912
+!i10b 1
+Einterfaccia_ondemand_controllo
+Z34 w1375288720
+R14
+R1
+R4
+Z35 8C:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd
+Z36 FC:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd
+l0
+L4
+VGC>[5Ag<efjoo4=6B5c1=3
+R7
+32
+Z37 !s108 1375444627.089000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd|
+Z39 !s107 C:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd|
+R11
+R12
+!s100 XTBkMJQ0W;NUG`JoB@jo<1
+!i10b 1
+Aa
+R14
+R1
+DEx4 work 30 interfaccia_ondemand_controllo 0 22 GC>[5Ag<efjoo4=6B5c1=3
+l73
+L16
+VVEOjnN8DnJJKa;^o5a_5i1
+R7
+32
+R37
+R38
+R39
+R11
+R12
+!s100 09z5lcRH?HgX8YX=Cz0ak0
+!i10b 1
+Einterface_minimo_controllo
+Z40 w1375392584
+R14
+R1
+R4
+Z41 8C:/Users/Buso/Desktop/progetto/Controllo/interface.vhd
+Z42 FC:/Users/Buso/Desktop/progetto/Controllo/interface.vhd
+l0
+L4
+V72Bc7e>PPZRGod_1@7[>N1
+R7
+32
+Z43 !s108 1375444626.734000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/interface.vhd|
+Z45 !s107 C:/Users/Buso/Desktop/progetto/Controllo/interface.vhd|
+R11
+R12
+!s100 c?>5GljfK0;WPHX_H02d90
+!i10b 1
+Aa
+R14
+R1
+DEx4 work 26 interface_minimo_controllo 0 22 72Bc7e>PPZRGod_1@7[>N1
+l34
+L11
+V0f`C;XMLB7A4`A`oK`cX[0
+R7
+32
+R43
+R44
+R45
+R11
+R12
+!s100 DgJ1H0DXnR:>KU;X=NkQj1
+!i10b 1
+Elatch_n
+Z46 w1373819606
+R14
+R1
+R4
+Z47 8C:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd
+Z48 FC:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd
+l0
+L5
+VVZ3NKMU5M4KKIMgF15OUg3
+R7
+32
+Z49 !s108 1375444626.913000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd|
+Z51 !s107 C:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd|
+R11
+R12
+!s100 YG;3:a@7:8;P[9DWJzSQl3
+!i10b 1
+Abehavior
+R14
+R1
+DEx4 work 7 latch_n 0 22 VZ3NKMU5M4KKIMgF15OUg3
+l11
+L10
+VG:h1lcgU;e<KU0`8kZj121
+R7
+32
+R49
+R50
+R51
+R11
+R12
+!s100 W1Q8g_beUn:[1egDRWPG71
+!i10b 1
+Elato_controllo
+Z52 w1375444661
+R14
+R1
+R4
+Z53 8C:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd
+Z54 FC:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd
+l0
+L4
+V[JEY^TiAJ;G^zG=H42cSk1
+!s100 S=izLLaEk3P>E3Gh2FAf30
+R7
+32
+!i10b 1
+Z55 !s108 1375444667.779000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd|
+Z57 !s107 C:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd|
+R11
+R12
+Aa
+R14
+R1
+DEx4 work 14 lato_controllo 0 22 [JEY^TiAJ;G^zG=H42cSk1
+l42
+L21
+VE[UkLMcjf_2gQ=8KH1_7l2
+!s100 [GH@lCHE9Ul_AgnANE6`:1
+R7
+32
+!i10b 1
+R55
+R56
+R57
+R11
+R12
+Eshiftreg_ing
+R13
+R14
+R1
+R4
+R15
+R16
+l0
+L4
+V0T^4J;oO:k1?IIM`1NfjV1
+R7
+32
+R17
+R18
+R19
+R11
+R12
+!s100 CnY:UE?T94WJGGif<R?U93
+!i10b 1
+Aa
+R14
+R1
+DEx4 work 12 shiftreg_ing 0 22 0T^4J;oO:k1?IIM`1NfjV1
+l14
+L9
+VeaL=^j5Ih]Zf18:MhTQI03
+R7
+32
+R17
+R18
+R19
+R11
+R12
+!s100 b6YjU1>293]6kIDgOA6;B0
+!i10b 1

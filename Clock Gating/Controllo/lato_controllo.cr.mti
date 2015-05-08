@@ -1,0 +1,83 @@
+C:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/LAtch.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Latch_N
+-- Compiling architecture behavior of Latch_N
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/FF_generic.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FF_generic
+-- Compiling architecture behavior of FF_generic
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/Controllo.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lato_controllo
+-- Compiling architecture A of Lato_controllo
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/ShiftIN.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ShiftReg_ing
+-- Compiling architecture A of ShiftReg_ing
+-- Compiling entity FF
+-- Compiling architecture behavior of FF
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/ondemand_controllo.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Interfaccia_ondemand_controllo
+-- Compiling architecture A of Interfaccia_ondemand_controllo
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/interface.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/interface.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Interface_minimo_controllo
+-- Compiling architecture A of Interface_minimo_controllo
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/FSM_RX_a_livello.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_RX2
+-- Compiling architecture FSM_R2 of FSM_RX2
+-- Compiling configuration CFG_FSM_R
+-- Loading entity FSM_RX2
+-- Loading architecture FSM_R2 of FSM_RX2
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/FSM_ondemand_controllo.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/FSM_ondemand_controllo.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_RX2
+-- Compiling architecture FSM_R2 of FSM_RX2
+-- Compiling configuration CFG_FSM_R
+-- Loading entity FSM_RX2
+-- Loading architecture FSM_R2 of FSM_RX2
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Controllo/fifo2.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fifo
+-- Compiling architecture Behavioral of fifo
+
+} {} {}}

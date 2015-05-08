@@ -1,0 +1,79 @@
+C:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_ondemand_sensore
+-- Compiling architecture FSM_R2 of FSM_ondemand_sensore
+-- Compiling configuration CFG_FSM_R
+-- Loading entity FSM_ondemand_sensore
+-- Loading architecture FSM_R2 of FSM_ondemand_sensore
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/interface.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/interface.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Interface_sensore
+-- Compiling architecture A of Interface_sensore
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ShiftOut
+-- Compiling architecture A of ShiftOut
+-- Compiling entity mux_2
+-- Compiling architecture a of mux_2
+-- Compiling entity Blocco
+-- Compiling architecture a of Blocco
+-- Compiling entity FFo
+-- Compiling architecture behavior of FFo
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FSM_TX_sens
+-- Compiling architecture FSM_T of FSM_TX_sens
+-- Compiling configuration CFG_FSM_T
+-- Loading entity FSM_TX_sens
+-- Loading architecture FSM_T of FSM_TX_sens
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lato_sensore
+-- Compiling architecture A of Lato_sensore
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Interfaccia_ondemand_sensore
+-- Compiling architecture A of Interfaccia_ondemand_sensore
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Latch_N
+-- Compiling architecture behavior of Latch_N
+
+} {} {}} C:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd {1 {vcom -work work -2002 -explicit C:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FF_generic
+-- Compiling architecture behavior of FF_generic
+
+} {} {}}

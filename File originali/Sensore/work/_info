@@ -1,0 +1,440 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Buso\Desktop\Sensore
+Eblocco
+Z0 w1375389219
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Buso\Desktop\progetto\Sensore
+Z4 8C:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd
+Z5 FC:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd
+l0
+L52
+VT]_SaoalZO_d[=z[Z<0760
+!s100 H]1i=mEK2@@1aZNQT8b:a1
+Z6 OV;C;10.1b;51
+32
+!i10b 1
+Z7 !s108 1375520456.906000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd|
+Z9 !s107 C:/Users/Buso/Desktop/progetto/Sensore/ShiftOut.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Aa
+R1
+R2
+Z12 DEx4 work 6 blocco 0 22 T]_SaoalZO_d[=z[Z<0760
+l67
+L57
+Z13 V>NI>0ze2FEbj;8]TaXGdU3
+Z14 !s100 XSc4o2^FH:6Jhk77O4D:C3
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Ccfg_fsm_r
+aFSM_R2
+eFSM_ondemand_sensore
+DAx4 work 20 fsm_ondemand_sensore 6 fsm_r2 22 2ON3k7f1Rka0J<Xd`0jKa1
+R1
+R2
+Z15 DEx4 work 20 fsm_ondemand_sensore 0 22 aC[XiJZ77RLOZl>`8T@b;3
+Z16 w1375480671
+R3
+Z17 8C:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd
+Z18 FC:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd
+l0
+L412
+VjhTOD[=DT=elU]1ebU8X02
+R6
+32
+Z19 !s108 1375520455.817000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd|
+Z21 !s107 C:/Users/Buso/Desktop/progetto/Sensore/FSM_ondemand_sensore.vhd|
+R10
+R11
+!s100 _:g`6Si^e2S=O@d>l^8d20
+!i10b 0
+Ccfg_fsm_t
+aFSM_T
+eFSM_TX_sens
+DAx4 work 11 fsm_tx_sens 5 fsm_t 22 _P=znYG;hPjgC3MTCA8Cf3
+R1
+R2
+Z22 DEx4 work 11 fsm_tx_sens 0 22 XVKC^:QLlVPQ7zPA[C?fO3
+Z23 w1375520412
+R3
+Z24 8C:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd
+Z25 FC:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd
+l0
+L158
+V]OkCzF9dSGPfC5?GiXkni0
+R6
+32
+Z26 !s108 1375520456.001000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd|
+Z28 !s107 C:/Users/Buso/Desktop/progetto/Sensore/FSM_TX_modificata_da_Buso2.vhd|
+R10
+R11
+!s100 Q_CDG6V3gi29LjJJLmRbl0
+!i10b 0
+Eff_generic
+Z29 w1375024870
+R1
+R2
+R3
+Z30 8C:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd
+Z31 FC:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd
+l0
+L4
+V_bKjSVzjS1[V:eNl=n;eE0
+R6
+32
+Z32 !s108 1375520455.482000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd|
+Z34 !s107 C:/Users/Buso/Desktop/progetto/Sensore/FF_generic.vhd|
+R10
+R11
+!s100 =fk@kAPU?bV7R1?R]LIDJ0
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 10 ff_generic 0 22 _bKjSVzjS1[V:eNl=n;eE0
+l11
+L10
+VgC01Y5zEb9`MZhN5F_UVY1
+R6
+32
+R32
+R33
+R34
+R10
+R11
+!s100 YCmKLMH_zRINDbFdXgmBV3
+!i10b 1
+Effo
+Z35 w1375389219
+R1
+R2
+R3
+R4
+R5
+l0
+L77
+V7c8W`]0P0Fk^:MBYVMa@12
+!s100 f40[ANg[UcCnXzNgKY3o=1
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Abehavior
+R1
+R2
+Z36 DEx4 work 3 ffo 0 22 7c8W`]0P0Fk^:MBYVMa@12
+l82
+L81
+Z37 VOQ>RBndE>R5]?jLCK;F1l0
+Z38 !s100 [=<_NE;bCeVoZ;[aBemfn1
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Efsm_ondemand_sensore
+R16
+R1
+R2
+R3
+R17
+R18
+l0
+L5
+VaC[XiJZ77RLOZl>`8T@b;3
+R6
+32
+R19
+R20
+R21
+R10
+R11
+!s100 3^k:jU90S1bCc_FH:mC@62
+!i10b 1
+Afsm_r2
+R1
+R2
+R15
+l33
+L22
+V2ON3k7f1Rka0J<Xd`0jKa1
+R6
+32
+R19
+R20
+R21
+R10
+R11
+!s100 ZD<GmIBBM4QSNoW:Rm6<h1
+!i10b 1
+Efsm_tx_sens
+R23
+R1
+R2
+R3
+R24
+R25
+l0
+L5
+VXVKC^:QLlVPQ7zPA[C?fO3
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 Nl>>R7iO09IfIOF=Sm`l_1
+!i10b 1
+Afsm_t
+R1
+R2
+R22
+l38
+L17
+V_P=znYG;hPjgC3MTCA8Cf3
+R6
+32
+R26
+R27
+R28
+R10
+R11
+!s100 ?b^2:GUD1MQMH8>28QFK23
+!i10b 1
+Einterfaccia_ondemand_sensore
+Z39 w1375429829
+R1
+R2
+R3
+Z40 8C:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd
+Z41 FC:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd
+l0
+L4
+VAzAYS3FAhdVJODGN`=18=0
+R6
+32
+Z42 !s108 1375520456.534000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd|
+Z44 !s107 C:/Users/Buso/Desktop/progetto/Sensore/ondemand_sensore.vhd|
+R10
+R11
+!s100 j22RUB1;ceRgBA??N55>M0
+!i10b 1
+Aa
+R1
+R2
+DEx4 work 28 interfaccia_ondemand_sensore 0 22 AzAYS3FAhdVJODGN`=18=0
+l62
+L16
+VzBeCOZXz`@aMJo3TMIBb50
+R6
+32
+R42
+R43
+R44
+R10
+R11
+!s100 h7N>e`Q;<iK=NJi1SK;UM2
+!i10b 1
+Einterface_sensore
+Z45 w1375398685
+R1
+R2
+R3
+Z46 8C:/Users/Buso/Desktop/progetto/Sensore/interface.vhd
+Z47 FC:/Users/Buso/Desktop/progetto/Sensore/interface.vhd
+l0
+L4
+V19MoTm>zg`H0kNVP05Da_2
+R6
+32
+Z48 !s108 1375520456.142000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/interface.vhd|
+Z50 !s107 C:/Users/Buso/Desktop/progetto/Sensore/interface.vhd|
+R10
+R11
+!s100 @LW=HekVN<7i<0b7li_6E2
+!i10b 1
+Aa
+R1
+R2
+DEx4 work 17 interface_sensore 0 22 19MoTm>zg`H0kNVP05Da_2
+l36
+L10
+V>]o9KjDFBj9_;3oShe[Y>2
+R6
+32
+R48
+R49
+R50
+R10
+R11
+!s100 G@eVZDG2N[=^Hm48jjKAT1
+!i10b 1
+Elatch_n
+Z51 w1373819606
+R1
+R2
+R3
+Z52 8C:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd
+Z53 FC:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd
+l0
+L5
+VVZ3NKMU5M4KKIMgF15OUg3
+R6
+32
+Z54 !s108 1375520456.422000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd|
+Z56 !s107 C:/Users/Buso/Desktop/progetto/Sensore/LAtch.vhd|
+R10
+R11
+!s100 YG;3:a@7:8;P[9DWJzSQl3
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 7 latch_n 0 22 VZ3NKMU5M4KKIMgF15OUg3
+l11
+L10
+VG:h1lcgU;e<KU0`8kZj121
+R6
+32
+R54
+R55
+R56
+R10
+R11
+!s100 W1Q8g_beUn:[1egDRWPG71
+!i10b 1
+Elato_sensore
+Z57 w1375430843
+R1
+R2
+R3
+Z58 8C:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd
+Z59 FC:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd
+l0
+L4
+V8VYGIgh8U87Qi9:WCRjR91
+R6
+32
+Z60 !s108 1375520456.691000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd|
+Z62 !s107 C:/Users/Buso/Desktop/progetto/Sensore/Sensore.vhd|
+R10
+R11
+!s100 GH2]I_3E0G5Y3_DJ^Ln_Z0
+!i10b 1
+Aa
+R1
+R2
+DEx4 work 12 lato_sensore 0 22 8VYGIgh8U87Qi9:WCRjR91
+l44
+L21
+VUYQ8hH3_hgTPZ^6QdJF7T1
+!s100 J?C[keXoa`z[f8:Q3MaN>1
+R6
+32
+R60
+R61
+R62
+R10
+R11
+!i10b 1
+Emux_2
+R35
+R1
+R2
+R3
+R4
+R5
+l0
+L31
+V=94E:zgmc:JoY]Z@cJlXa3
+!s100 @d]1[m@RcHTccQWLPaWR83
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Aa
+R1
+R2
+Z63 DEx4 work 5 mux_2 0 22 =94E:zgmc:JoY]Z@cJlXa3
+l36
+L35
+Z64 VNN>PFF9>?RnfJbfSRVo=S0
+Z65 !s100 B[U:_1[N3jh=TeD^2a9WW2
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Eshiftout
+R35
+Z66 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z67 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R1
+R2
+R3
+R4
+R5
+l0
+L6
+V5W:?JQLBRb6EmJfEn6X_10
+!s100 A0IEiZ6c1P8V:]Pjo3abO2
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Aa
+R66
+R67
+R1
+R2
+Z68 DEx4 work 8 shiftout 0 22 5W:?JQLBRb6EmJfEn6X_10
+l18
+L12
+Z69 VXYmd?iRRh`0;g6_H@ZIiP3
+Z70 !s100 nZ64`clEQR9HLVl2;Yjg;0
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11

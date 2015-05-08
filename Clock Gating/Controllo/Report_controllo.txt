@@ -1,0 +1,375 @@
+lato controllo senza ckgating
+****************************************
+Report : power
+        -analysis_effort low
+        -include_input_nets
+Design : Lato_controllo_N3_M6
+Version: Z-2007.03-SP1
+Date   : Sat Aug  3 02:58:45 2013
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /home/mg.lowpower/do/libtsmc/synopsys/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  58.5912 uW   (86%)
+  Net Switching Power  =   9.7880 uW   (14%)
+                         ---------
+Total Dynamic Power    =  68.3792 uW  (100%)
+
+Cell Leakage Power     =   3.4503 uW
+
+****************************************
+Report : area
+Design : Lato_controllo_N3_M6
+Version: Z-2007.03-SP1
+Date   : Sat Aug  3 03:03:50 2013
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/mg.lowpower/do/libtsmc/synopsys/typical.db)
+
+Number of ports:               25
+Number of nets:                26
+Number of cells:                2
+Number of references:           2
+
+Combinational area:        948.326422
+Noncombinational area:    1469.764795
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          2418.091309
+Total area:                 undefined
+
+
+**************con clock gating
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+|       | CURRENT_STATE_reg[4] |  -   |  1   |   no   |  ??   |  ??   |  no   |
+|       | CURRENT_STATE_reg[3] |  -   |  1   |   no   |  ??   |  ??   |  no   |
+|       | CURRENT_STATE_reg[2] |  -   |  1   |   no   |  ??   |  ??   |  no   |
+|       | CURRENT_STATE_reg[1] |  -   |  1   |   no   |  ??   |  ??   |  no   |
+|       | CURRENT_STATE_reg[0] |  -   |  1   |   no   |  yes  |  ??   |  no   |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             0            0          0            0
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         0            0          0            0
+   Enable condition not met:     1          100          5          100
+   Setup condition violated:     0            0          0            0
+Total:                           1          100          5          100
+No clock gating opportunities were found.
+Information: Performing clock-gating on design Latch_N
+Information: Performing clock-gating on design ShiftReg_ing_N6
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+| cg0   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       |  Dato_out_reg[5]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[4]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[3]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[2]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[1]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[0]  |    -    |  1   |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             1          100          6          100
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         0            0          0            0
+   Enable condition not met:     0            0          0            0
+   Setup condition violated:     0            0          0            0
+Total:                           1          100          6          100
+
+
+Information: Performing clock-gating on design FF_generic_N3
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+| cg0   |                   |         |  3   |  yes   |  yes  |  yes  |  yes  |
+|       |     q_reg[2]      |    -    |  1   |        |       |       |       |
+|       |     q_reg[1]      |    -    |  1   |        |       |       |       |
+|       |     q_reg[0]      |    -    |  1   |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             1          100          3          100
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         0            0          0            0
+   Enable condition not met:     0            0          0            0
+   Setup condition violated:     0            0          0            0
+Total:                           1          100          3          100
+
+
+Information: Performing clock-gating on design ShiftOut_N6
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+| cg0   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       |    temp_reg[5]    |    -    |  1   |        |       |       |       |
+|       |    temp_reg[4]    |    -    |  1   |        |       |       |       |
+|       |    temp_reg[3]    |    -    |  1   |        |       |       |       |
+|       |    temp_reg[2]    |    -    |  1   |        |       |       |       |
+|       |    temp_reg[1]    |    -    |  1   |        |       |       |       |
+|       |    temp_reg[0]    |    -    |  1   |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+|       |   Dato_out_reg    |    -    |  1   |  yes   |  yes  |  no   |  no   |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             1           50          6           85
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         1           50          1           14
+   Enable condition not met:     0            0          0            0
+   Setup condition violated:     0            0          0            0
+Total:                           2          100          7          100
+
+
+Information: Performing clock-gating on design fifo
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+| cg0   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       |  dataout_reg[5]   |    -    |  1   |        |       |       |       |
+|       |  dataout_reg[4]   |    -    |  1   |        |       |       |       |
+|       |  dataout_reg[3]   |    -    |  1   |        |       |       |       |
+|       |  dataout_reg[2]   |    -    |  1   |        |       |       |       |
+|       |  dataout_reg[1]   |    -    |  1   |        |       |       |       |
+|       |  dataout_reg[0]   |    -    |  1   |        |       |       |       |
+| cg1   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       | memory_reg[0][5]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[0][4]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[0][3]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[0][2]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[0][1]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[0][0]  |    -    |  1   |        |       |       |       |
+| cg2   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       | memory_reg[1][5]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[1][4]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[1][3]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[1][2]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[1][1]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[1][0]  |    -    |  1   |        |       |       |       |
+| cg3   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       | memory_reg[2][5]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[2][4]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[2][3]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[2][2]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[2][1]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[2][0]  |    -    |  1   |        |       |       |       |
+| cg4   |                   |         |  6   |  yes   |  yes  |  yes  |  yes  |
+|       | memory_reg[3][5]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[3][4]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[3][3]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[3][2]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[3][1]  |    -    |  1   |        |       |       |       |
+|       | memory_reg[3][0]  |    -    |  1   |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+|       |     full_reg      |    -    |  1   |  yes   |  yes  |  no   |  no   |
+|       |  readptr_reg[1]   |    -    |  1   |  yes   |  yes  |  no   |  no   |
+|       |  readptr_reg[0]   |    -    |  1   |  yes   |  yes  |  no   |  no   |
+|       |     empty_reg     |    -    |  1   |   no   |  ??   |  ??   |  no   |
+|       |  writeptr_reg[1]  |    -    |  1   |  yes   |  yes  |  no   |  no   |
+|       |  writeptr_reg[0]  |    -    |  1   |  yes   |  yes  |  no   |  no   |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             5           55         30           83
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         3           33          5           13
+   Enable condition not met:     1           11          1            2
+   Setup condition violated:     0            0          0            0
+Total:                           9          100         36          100
+
+
+Information: Performing clock-gating on design Interface_minimo_controllo_N3
+Information: Performing clock-gating on design FSM_RX
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+|       | CURRENT_STATE_reg[2] |  -   |  1   |  yes   |  yes  |  no   |  no   |
+|       | CURRENT_STATE_reg[1] |  -   |  1   |  yes   |  yes  |  no   |  no   |
+|       | CURRENT_STATE_reg[0] |  -   |  1   |   no   |  ??   |  ??   |  no   |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             0            0          0            0
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         1           50          2           66
+   Enable condition not met:     1           50          1           33
+   Setup condition violated:     0            0          0            0
+Total:                           2          100          3          100
+No clock gating opportunities were found.
+Information: Performing clock-gating on design ShiftReg_ing_N3
+
+
+Clock Gate Insertion Report
+===============================================================================
+| Gated |                   | Include |      | Enable | Setup | Width | Clock |
+| Group |  Flip-Flop Name   | Exclude | Bits | Cond.  | Cond. | Cond. | Gated |
+===============================================================================
+|       |                   |         |      |        |       |       |       |
+|       |  GATED REGISTERS  |         |      |        |       |       |       |
+| cg0   |                   |         |  3   |  yes   |  yes  |  yes  |  yes  |
+|       |  Dato_out_reg[2]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[1]  |    -    |  1   |        |       |       |       |
+|       |  Dato_out_reg[0]  |    -    |  1   |        |       |       |       |
+|       |                   |         |      |        |       |       |       |
+|       | UNGATED REGISTERS |         |      |        |       |       |       |
+===============================================================================
+
+Summary:
+Flip-Flops                        Banks                   Bit-Width
+                              number  percentage      number  percentage
+Clock gated (total):             1          100          3          100
+Clock not gated because
+   Bank was excluded:            0            0          0            0
+   Bank width too small:         0            0          0            0
+   Enable condition not met:     0            0          0            0
+   Setup condition violated:     0            0          0            0
+Total:                           1          100          3          100
+
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -include_input_nets
+Design : Lato_controllo_N3_M6
+Version: Z-2007.03-SP1
+Date   : Sat Aug  3 03:12:49 2013
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /home/mg.lowpower/do/libtsmc/synopsys/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  31.0362 uW   (82%)
+  Net Switching Power  =   6.8861 uW   (18%)
+                         ---------
+Total Dynamic Power    =  37.9223 uW  (100%)
+
+Cell Leakage Power     =   3.2354 uW
+
+
+****************************************
+Report : area
+Design : Lato_controllo_N3_M6
+Version: Z-2007.03-SP1
+Date   : Sat Aug  3 03:15:09 2013
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/mg.lowpower/do/libtsmc/synopsys/typical.db)
+
+Number of ports:               25
+Number of nets:                26
+Number of cells:                2
+Number of references:           2
+
+Combinational area:        712.656018
+Noncombinational area:    1555.142395
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          2267.798340
+Total area:                 undefined
+
+
+
+
